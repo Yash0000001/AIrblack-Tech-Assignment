@@ -24,12 +24,12 @@ export const Form = () => {
     <div className="w-full bg-[#0F1014]">
       <div className="w-11/12 mx-auto bg-white rounded-xl ">
         <div className="bg-[#E84D84] rounded-t-xl mb-5 ">
-          <p className="text-center text-2xl text-white p-4">
+          <p className="text-center text-sm lg:text-2xl text-white p-4">
             FILL THE FORM BELOW TO ENQUIRE
           </p>
         </div>
-        <form onSubmit={submitHandler} className="flex flex-col ml-5 w-11/12 ">
-          <label htmlFor="Name" className="text-lg  font-medium ">
+        <form onSubmit={submitHandler} className="flex flex-col p-6 w-full ">
+          <label htmlFor="Name" className="text-sm lg:text-lg  font-medium ">
             *Enter your Name
           </label>
           <br />
@@ -40,11 +40,11 @@ export const Form = () => {
             placeholder="Eg. Aneesha Mehra"
             onChange={changeHandler}
             value={formData.Name}
-            className="border-2 border-solid p-4 rounded-md"
+            className="border-2 border-solid p-2 lg:p-4 rounded-md"
           />
           <br />
 
-          <label htmlFor="whatsapp" className="text-lg font-medium  ">
+          <label htmlFor="whatsapp" className="text-sm lg:text-lg font-medium  ">
             *Enter your Whatsapp Number
           </label>
           <br />
@@ -62,13 +62,13 @@ export const Form = () => {
               placeholder="Eg. 0000000000"
               onChange={changeHandler}
               value={formData.whatsapp}
-              className="border-2 border-solid p-4 rounded-md w-8/12"
+              className="border-2 border-solid p-2 lg:p-4 rounded-md w-8/12"
             />
           </div>
 
           <br />
 
-          <label htmlFor="Profession" className="text-lg font-medium ">
+          <label htmlFor="Profession" className="text-sm lg:text-lg font-medium ">
             *Select Your Profession
           </label>
           <br />
@@ -77,7 +77,7 @@ export const Form = () => {
             name="Profession"
             value={formData.Profession}
             onChange={changeHandler}
-            className="border-2 border-solid p-4 rounded-md"
+            className="border-2 border-solid p-2 lg:p-4 rounded-md"
           >
             <option>Choose the most relevant option</option>
             <option>A</option>
@@ -87,7 +87,7 @@ export const Form = () => {
 
           <br />
 
-          <label htmlFor="Goal" className="text-lg font-medium ">
+          <label htmlFor="Goal" className="text-sm lg:text-lg font-medium ">
             *Select Your Goal
           </label>
           <br />
@@ -96,7 +96,7 @@ export const Form = () => {
             name="Goal"
             value={formData.Goal}
             onChange={changeHandler}
-            className="border-2 border-solid p-4 rounded-md"
+            className="border-2 border-solid p-2 lg:p-4 rounded-md"
           >
             <option>Choose the most relevant option</option>
             <option>A</option>
@@ -106,7 +106,7 @@ export const Form = () => {
 
           <br />
 
-          <label htmlFor="City" className="text-lg font-medium ">
+          <label htmlFor="City" className="text-sm lg:text-lg font-medium ">
             *Select Your City
           </label>
           <br />
@@ -115,7 +115,7 @@ export const Form = () => {
             name="City"
             value={formData.City}
             onChange={changeHandler}
-            className="border-2 border-solid p-4 rounded-md"
+            className="border-2 border-solid p-2 lg:p-4 rounded-md"
           >
             <option>Choose the most relevant option</option>
             <option>A</option>
@@ -123,7 +123,7 @@ export const Form = () => {
             <option>C</option>
           </select>
 
-          <button className="text-xl bg-gradient-to-r from-[#F56563] to-[#E54988] p-4 rounded-md text-white mt-5 mb-5">
+          <button className="text-sm lg:text-xl bg-gradient-to-r from-[#F56563] to-[#E54988] p-2 lg:p-4 rounded-md text-white mt-5 mb-5">
             Submit
           </button>
         </form>

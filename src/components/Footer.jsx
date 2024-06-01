@@ -12,27 +12,27 @@ export const Footer = () => {
         <img src={footer} className="w-full " />
       </div>
 
-      <div className=" w-full absolute flex flex-col gap-16 p-12">
-        <p className="text-white text-4xl text-center">
+      <div className=" w-full absolute flex flex-col gap-4 lg:gap-16 p-6 lg:p-12">
+        <p className="text-white text-xl lg:text-4xl text-center">
           Join our growing <br />
           community of <br /> 35,000+ alumni
         </p>
-        <button className="bg-gradient-to-r from-[#F56563] to-[#E54988] w-2/3 text-white text-2xl p-3 rounded-md mx-auto">
+        <button className="bg-gradient-to-r from-[#F56563] to-[#E54988] w-2/3 text-white text-sm lg:text-2xl p-1 lg:p-3 rounded-md mx-auto">
           Apply Now
         </button>
 
-        <div className="flex flex-row gap-9 mx-auto">
+        <div className="flex flex-row gap-4 lg:gap-9 mx-auto">
           <a href="#">
-            <img src={Instagram} className="size-16"/>
+            <img src={Instagram} className="size-6 lg:size-16"/>
           </a>
           <a href="#">
-            <img src={Facebook} className="size-16"/>
+            <img src={Facebook} className="size-6 lg:size-16"/>
           </a>
           <a href="#">
-            <img src={Linkedin} className="size-16"/>
+            <img src={Linkedin} className="size-6 lg:size-16"/>
           </a>
           <a href="#">
-            <img src={Twitter} className="size-16"/>
+            <img src={Twitter} className="size-6 lg:size-16"/>
           </a>
         </div>
       </div>

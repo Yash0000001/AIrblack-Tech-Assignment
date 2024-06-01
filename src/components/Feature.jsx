@@ -14,31 +14,31 @@ export const Feature = () => {
         <img src={footer} className="w-full " />
       </div>
 
-      <div className=" w-full absolute flex flex-col gap-16 p-12">
-        <div className="w-full flex justify-center gap-9  ">
+      <div className=" w-full absolute flex flex-col gap-8 lg:gap-16 p-4 lg:p-12">
+        <div className="w-full flex justify-center gap-4 lg:gap-9  ">
           <img src={left} className="w-[10%] " />
-          <p className="text-white text-4xl  text-center p-4">
+          <p className="text-white text-lg lg:text-4xl  text-center p-4">
             Why Should You <br/> Join Airblack?
           </p>
           <img src={right} className="w-[10%]" />
         </div>
 
-        <div className="flex flex-row w-full gap-20 items-center justify-center">
-            <div className="flex flex-col items-center justify-center ">
-                <img src={record} className="size-16"/>
-                <p className="text-white text-lg text-center">Do-it-Together <br/> live on zoom</p>
+        <div className="flex flex-row w-full gap-10 lg:gap-20 items-center justify-center">
+            <div className="flex flex-col items-center justify-center gap-2 ">
+                <img src={record} className="size-6 lg:size-16"/>
+                <p className="text-white text-xs lg:text-lg text-center">Do-it-Together <br/> live on zoom</p>
             </div>
-            <div className="flex flex-col items-center justify-center ">
-                <img src={starround} className="size-16"/>
-                <p className="text-white text-lg text-center">4.8 /5 <br/> Rated Classes</p>
+            <div className="flex flex-col items-center justify-center gap-2">
+                <img src={starround} className="size-6 lg:size-16"/>
+                <p className="text-white text-xs lg:text-lg text-center">4.8 /5 <br/> Rated Classes</p>
             </div>
-            <div className="flex flex-col items-center justify-center ">
-                <img src={members} className="size-16"/>
-                <p className="text-white text-lg text-center">35000+ <br/> members</p>
+            <div className="flex flex-col items-center justify-center gap-2">
+                <img src={members} className="size-6 lg:size-16"/>
+                <p className="text-white text-xs lg:text-lg text-center">35000+ <br/> members</p>
             </div>
         </div>
 
-        <button className="bg-gradient-to-r from-[#F56563] to-[#E54988] w-full font-semibold text-white text-2xl p-3 rounded-md mx-auto">
+        <button className="bg-gradient-to-r from-[#F56563] to-[#E54988] w-full font-semibold text-white text-sm lg:text-2xl p-1 lg:p-3 rounded-md mx-auto">
           Apply Now
         </button>
       </div>
