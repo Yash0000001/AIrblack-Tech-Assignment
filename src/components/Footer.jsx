@@ -23,16 +23,16 @@ export const Footer = () => {
 
         <div className="flex flex-row gap-4 lg:gap-9 mx-auto">
           <a href="#">
-            <img src={Instagram} className="size-6 lg:size-16"/>
+            <img src={Instagram} className="size-8 lg:size-16"/>
           </a>
           <a href="#">
-            <img src={Facebook} className="size-6 lg:size-16"/>
+            <img src={Facebook} className="size-8 lg:size-16"/>
           </a>
           <a href="#">
-            <img src={Linkedin} className="size-6 lg:size-16"/>
+            <img src={Linkedin} className="size-8 lg:size-16"/>
           </a>
           <a href="#">
-            <img src={Twitter} className="size-6 lg:size-16"/>
+            <img src={Twitter} className="size-8 lg:size-16"/>
           </a>
         </div>
       </div>

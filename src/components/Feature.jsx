@@ -25,15 +25,15 @@ export const Feature = () => {
 
         <div className="flex flex-row w-full gap-10 lg:gap-20 items-center justify-center">
             <div className="flex flex-col items-center justify-center gap-2 ">
-                <img src={record} className="size-6 lg:size-16"/>
+                <img src={record} className="size-8 lg:size-16"/>
                 <p className="text-white text-xs lg:text-lg text-center">Do-it-Together <br/> live on zoom</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
-                <img src={starround} className="size-6 lg:size-16"/>
+                <img src={starround} className="size-8 lg:size-16"/>
                 <p className="text-white text-xs lg:text-lg text-center">4.8 /5 <br/> Rated Classes</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
-                <img src={members} className="size-6 lg:size-16"/>
+                <img src={members} className="size-8 lg:size-16"/>
                 <p className="text-white text-xs lg:text-lg text-center">35000+ <br/> members</p>
             </div>
         </div>
